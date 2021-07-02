@@ -3,14 +3,14 @@
 ## 1.Precautions
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**If you are using Linkis for the first time, you can ignore this chapter; if you are already a user of Linkis, it is recommended to read it before installing or upgrading：[Brief description of the difference between Linkis1.0 and Linkis0.X](https://github.com/WeBankFinTech/Linkis/wiki/Linkis1.0%E4%B8%8ELinkis0.X%E7%9A%84%E5%8C%BA%E5%88%AB%E7%AE%80%E8%BF%B0)**.
-
+<!--链接跳转到了中文文档-->
 ## 2. Service upgrade installation
 
 &nbsp;&nbsp;&nbsp;&nbsp;  Because linkis 1.0 basically upgraded all services, including service names, all services need to be reinstalled when upgrading from 0.X to 1.X.
 
 &nbsp;&nbsp;&nbsp;&nbsp;  If you need to keep 0.X data during the upgrade, you must select 1 to skip the table building statement (see the code below).
 
-&nbsp;&nbsp;&nbsp;&nbsp;  For the installation of Linkis1.0, please refer to [Quick Deployment Linkis1.0](../Deployment_Documents/Quick_Deployment_Linkis1.0.md)
+&nbsp;&nbsp;&nbsp;&nbsp;  For the installation of Linkis1.0, please refer to [Quick Deployment Linkis1.0](../Deployment_Documents/Quick_Deployment_Linkis1.0.md)<!--链接失效-->
 
 ```
 Do you want to clear Linkis table information in the database?
@@ -70,4 +70,4 @@ source linkis_configuration_dml.sql
 
 ## 4. Installation and startup Linkis1.0
 
-&nbsp;&nbsp;&nbsp;&nbsp;  Start Linkis 1.0  to verify whether the service has been started normally and provide external services. For details, please refer to: [Quick Deployment Linkis1.0](../Deployment_Documents/Quick_Deployment_Linkis1.0.md)
+&nbsp;&nbsp;&nbsp;&nbsp;  Start Linkis 1.0  to verify whether the service has been started normally and provide external services. For details, please refer to: [Quick Deployment Linkis1.0](../Deployment_Documents/Quick_Deployment_Linkis1.0.md)<!--链接失效-->
