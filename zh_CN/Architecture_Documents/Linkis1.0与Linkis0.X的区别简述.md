@@ -93,5 +93,4 @@ d)	采用 Executor 和 EngineConn 分离的方式的好处是，可以避免 Rec
 这样不同类型引擎可以根据需要分别加载其中需要的能力，大大减少引擎实现的冗余。
 
 &nbsp;&nbsp;&nbsp;&nbsp;  如下图所示：
-<!--图片不存在-->
-![Linkis EngineConn架构图](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis1.0-EngineConn-architecture.png)
+![Linkis EngineConn架构图](../Images/Architecture/EngineConn/engineconn-01.png)

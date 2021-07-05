@@ -53,4 +53,4 @@
 In this way, different types of engines can respectively load the required capabilities according to their needs, which greatly reduces the redundancy of engine implementation.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As shown below:  
 <!--此链接已失效-->   
-![Linkis EngineConn Architecture diagram](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis1.0-EngineConn-architecture.png)
+![Linkis EngineConn Architecture diagram](../Images/Architecture/EngineConn/engineconn-01.png)
