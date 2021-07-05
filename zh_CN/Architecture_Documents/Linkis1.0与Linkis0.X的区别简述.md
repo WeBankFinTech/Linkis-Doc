@@ -30,11 +30,11 @@ Linkis EngineConnPluginServer 支持以插件的形式动态加载 EngineConnPlu
 &nbsp;&nbsp;&nbsp;&nbsp;  Linkis0.X 微服务列表如下：
 
 ![Linkis0.X服务列表](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/installation/Linkis0.X-services-list.png)
-
+<!--图片不存在-->
 &nbsp;&nbsp;&nbsp;&nbsp;  Linkis1.0 微服务列表如下：
 
 ![Linkis1.0服务列表](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/installation/Linkis1.0-services-list.png)
-
+<!--图片不存在-->
 &nbsp;&nbsp;&nbsp;&nbsp;  从上面两个图中看，Linkis1.0 将服务分为了三类服务：计算治理（英文缩写CG）/微服务治理（MG）/公共增强服务(PS)。其中：
 
 1. 计算治理的一大变化是，Entrance 和 EngineConnManager服务与引擎再不相关，实现一个新引擎只需实现 EngineConnPlugin插件即可，EngineConnPluginServer会动态加载 EngineConnPlugin 插件，做到引擎热插拔式更新；
@@ -64,11 +64,10 @@ Linkis EngineConnPluginServer 支持以插件的形式动态加载 EngineConnPlu
 &nbsp;&nbsp;&nbsp;&nbsp;  以下是用户Linkis0.X实现一个新引擎需要实现的相关接口和类：
 
 ![Linkis0.X 如何实现一个全新引擎](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis0.X-NewEngine-architecture.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;  以下为Linkis1.0.0，实现一个新引擎，用户需实现的接口和类：
+<!--链接不存在-->p;&nbsp;&nbsp;  以下为Linkis1.0.0，实现一个新引擎，用户需实现的接口和类：
 
 ![Linkis1.0 如何实现一个全新引擎](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis1.0-NewEngine-architecture.png)
-
+<!--链接不存在-->
 &nbsp;&nbsp;&nbsp;&nbsp;  其中EngineConnResourceFactory和EngineLaunchBuilder为非必需实现接口，只有EngineConnFactory为必需实现接口。
 
 ### 5.2 新引擎启动流程
@@ -76,7 +75,7 @@ Linkis EngineConnPluginServer 支持以插件的形式动态加载 EngineConnPlu
 &nbsp;&nbsp;&nbsp;&nbsp;  EngineConnPlugin 提供了 Server 服务，用于启动和加载所有的引擎插件，以下给出了一个新引擎启动，访问了 EngineConnPlugin-Server 的全部流程：
 
 ![Linkis 引擎启动流程](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis1.0-newEngine-initialization.png)
-
+<!--链接不存在-->
 ## 6. Linkis EngineConn简介
 
 &nbsp;&nbsp;&nbsp;&nbsp;  EngineConn，即原 Engine 模块，作为 Linkis 与底层计算存储引擎进行连接和交互的实际单元，是 Linkis 提供计算存储能力的基础。
@@ -94,5 +93,4 @@ d)	采用 Executor 和 EngineConn 分离的方式的好处是，可以避免 Rec
 这样不同类型引擎可以根据需要分别加载其中需要的能力，大大减少引擎实现的冗余。
 
 &nbsp;&nbsp;&nbsp;&nbsp;  如下图所示：
-
-![Linkis EngineConn架构图](https://github.com/WeBankFinTech/Linkis/blob/dev-1.0.0/images/zh_CN/Linkis1.0/architecture/Linkis1.0-EngineConn-architecture.png)
+![Linkis EngineConn架构图](../Images/Architecture/EngineConn/engineconn-01.png)

@@ -43,7 +43,7 @@ python的执行逻辑是通过 Py4j的方式，启动一个的python
 ![](../Images/EngineUsage/python-run.png)
 
 图3-1 python的执行效果截图
-
+<!--此图片页面显示不出来-->
 ### 3.2工作流的使用方式
 
 DSS工作流也有python的节点，您可以拖入工作流节点，然后双击进入然后进行编辑代码，然后以工作流的形式进行执行。
@@ -59,3 +59,4 @@ Linkis也提供了client的方式进行调用spark的任务，调用的方式是
 ![](../Images/EngineUsage/jdbc-conf.png)
 
 图4-1 python的用户自定义配置管理台
+<!--此图片页面显示不了-->

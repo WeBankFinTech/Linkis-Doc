@@ -251,6 +251,7 @@ Linkis1.0 默认已适配的引擎列表如下：
    
 ![Linkis1.0_Eureka](../Images/deployment/Linkis1.0_combined_eureka.png)
 
+
 #### (3)、查看服务是否正常
 1. 服务启动成功后您可以通过，安装前端管理台，来检验服务的正常性，[点击跳转管理台安装文档](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/Deployment_Documents/%E5%89%8D%E7%AB%AF%E7%AE%A1%E7%90%86%E5%8F%B0%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A3.md)
 2. 您也可以通过Linkis用户手册来测试Linis是否能正常运行任务，[点击跳转用户手册](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/User_Manual/README.md)
