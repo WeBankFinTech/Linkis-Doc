@@ -14,11 +14,11 @@ Linkis 1.0 将所有微服务总体划分为三大类：公共增强服务、计
 
 以下是 Linkis1.0 架构文档的目录列表：
 
-1. Linkis1.0在架构上的特点，请阅读[Linkis1.0与Linkis0.x的区别](Linkis1.0与Linkis0.X的区别简述.md)。
+1. Linkis1.0在架构上的特点，请阅读[Linkis1.0与Linkis0.x的区别](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/Architecture_Documents/Linkis1.0%E4%B8%8ELinkis0.X%E7%9A%84%E5%8C%BA%E5%88%AB%E7%AE%80%E8%BF%B0.md)
 
-2. Linkis1.0公共增强服务相关文档，请阅读[公共增强服务](Public_Enhancement_Services\README.md)。
+2. Linkis1.0公共增强服务相关文档，请阅读[公共增强服务](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/Architecture_Documents/Public_Enhancement_Services/README.md)
 
-3. Linkis1.0微服务治理相关文档，请阅读[微服务治理](Microservice_Governance_Services\README.md)。
+3. Linkis1.0微服务治理相关文档，请阅读[微服务治理](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/Architecture_Documents/Microservice_Governance_Services/README.md)
 
-4. Linkis1.0提出的计算治理服务相关文档，请阅读 [计算治理服务](Computation_Governance_Services\README.md)。
+4. Linkis1.0提出的计算治理服务相关文档，请阅读 [计算治理服务](https://github.com/WeBankFinTech/Linkis-Doc/blob/master/zh_CN/Architecture_Documents/Computation_Governance_Services/README.md)
 
