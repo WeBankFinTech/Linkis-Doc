@@ -160,7 +160,7 @@ Decompress the installation package to the installation directory and modify the
  	YARN_RESTFUL_URL=http://127.0.0.1:8088  #URL of Yarn's ResourceManager
 
     # If you want to use it with Scriptis, for CDH version of hive, you need to set the following parameters.(For the community version of Hive, you can leave out the following configuration.)
-    HIVE_META_URL=jdbc://...   #URL of Hive metadata database
+    HIVE_META_URL=jdbc://...   #URL of Hive metadata database. Attention! If there are special characters like "&", they need to be enclosed in quotation marks.
     HIVE_META_USER=   # username of the Hive metadata database 
     HIVE_META_PASSWORD=    # password of the Hive metadata database
     

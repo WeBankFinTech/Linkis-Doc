@@ -159,7 +159,7 @@ Linkis1.0 默认已适配的引擎列表如下：
     YARN_RESTFUL_URL=http://127.0.0.1:8088  #Yarn的ResourceManager的地址
 
     # 如果您想配合Scriptis一起使用，CDH版的Hive，还需要配置如下参数（社区版Hive可忽略该配置）
-    HIVE_META_URL=jdbc://...   # HiveMeta元数据库的URL
+    HIVE_META_URL=jdbc://...   # HiveMeta元数据库的URL，注意：如果url包含特殊字符，比如&，那需要使用双引号
     HIVE_META_USER=   # HiveMeta元数据库的用户
     HIVE_META_PASSWORD=    # HiveMeta元数据库的密码
     
