@@ -61,8 +61,8 @@ Main Class都统一设置为各模块自己的Main Class，已在前言中列出
 ```
     linkis-cg-manager: linkis-application-manager
     linkis-ps-bml: linkis-bml
-    linkis-ps-cs: `com.webank.wedatasphere.linkis.cs.server.LinkisCSApplication`
-    linkis-cg-engineconnmanager: linkis-cs-server
+    linkis-ps-cs: `linkis-cs-server`
+    linkis-cg-engineconnmanager: linkis-engineconn-manager-server
     linkis-cg-engineplugin: linkis-engineconn-plugin-server
     linkis-cg-entrance: linkis-entrance
     linkis-ps-publicservice: linkis-jobhistory
@@ -96,8 +96,8 @@ export $SERVER_JAVA_OPTS =" -agentlib:jdwp=transport=dt_socket,server=y,suspend=
       b. 接着在idea里面新建一个远程调试，首先选择remote，然后增加服务的host和端口，接着选择调试的模块
 ![07](../Images/Tuning_and_Troubleshooting/debug-07.png)
 3. 接着点击debug按钮就可以完成远程调试了
-![08](../Images/Tuning_and_Troubleshooting/debug-08.png)
-      
+   ![08](../Images/Tuning_and_Troubleshooting/debug-08.png)
+   
 2. EngineConn的远程调试：
     a. 在EngineConn对应的linkis-engineconn.properties文件中，添加以下配置项
 ```
@@ -108,6 +108,6 @@ wds.linkis.engineconn.debug.enable=true
 ```
       Listening for transport dt_socket at address: 26072
 ```
-      
+
    c. 在idea里新建一个远程调试，在前面已经介绍过步骤，在此不再赘述。
- 
+
